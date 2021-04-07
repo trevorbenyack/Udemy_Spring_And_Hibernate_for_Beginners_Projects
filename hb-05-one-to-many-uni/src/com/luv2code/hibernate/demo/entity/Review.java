@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="reivew")
+@Table(name="review")
 public class Review {
 	
 	// define fields
