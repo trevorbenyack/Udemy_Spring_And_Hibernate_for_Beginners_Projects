@@ -9,7 +9,7 @@ public class CourseCodeConstraintValidator implements ConstraintValidator<Course
 	
 	@Override
 	public void initialize(CourseCode theCourseCode) {
-		// TODO Auto-generated method stub
+		
 		coursePrefix = theCourseCode.value();
 	}
 	
